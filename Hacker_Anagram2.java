@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Hacker_Anagram2 {
     static boolean isAnagram(String s1, String s2) {
         //Removing white spaces from s1 and s2 and changing case to lower
-
+        // Hacker rank environment doesn't support regex
         String copyOfs1 = s1.replaceAll("\s", "").toLowerCase();
 
         String copyOfs2 = s2.replaceAll("\s", "").toLowerCase();
